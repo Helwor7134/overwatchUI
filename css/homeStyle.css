@@ -1,0 +1,84 @@
+/* root */
+main{
+    display: flex;
+    width: 1366px;
+    height: 708px;
+    margin: auto;
+    padding: 20px 50px;
+    background-image: url(https://pic.downk.cc/item/5f379d9514195aa594f853f2.jpg);
+    background-color: blue;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+.left{
+    position: relative;
+    width: 40%;
+    /* background-color: gray; */
+}
+
+.right{
+    width: 60%;
+    position: relative;
+    /* background-color: green; */
+}
+
+/* layot */
+
+/* color */
+.yellow{
+    color: #ffdd00;
+}
+
+.blue{
+    color: #00c3ff;
+}
+
+/* tool */
+
+/* module */
+.menu-1-button{
+    line-height: 62px;
+    font-style:italic;
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+    text-shadow: gray 1px 0 0, gray 0 1px 0, gray -1px 0 0, gray 0 -1px 0;
+}
+
+.menu-2-button{
+    opacity: 0.8;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    text-shadow: black 1px 0 0, black 0 1px 0, black -1px 0 0, black 0 -1px 0;
+}
+
+.chat{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+.chat>ul{
+    padding-left: 18px;
+}
+
+.chat-content{
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-shadow: 1px 1px black;
+}
+
+.chat-button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+    opacity: 0.5;
+    color: white;
+}
